@@ -558,6 +558,12 @@ label.Type__TypeElement-goli3j-0.gCwing.main-playlistEditDetailsModal-textElemen
 /*navbar active icon*/
 .main-navBar-navBarItem .collection-active-icon, .main-navBar-navBarItem .home-active-icon, .main-navBar-navBarItem .make-music-active-icon, .main-navBar-navBarItem .main-navBar-navBarLinkActive .collection-icon, .main-navBar-navBarItem .main-navBar-navBarLinkActive .home-icon, .main-navBar-navBarItem .main-navBar-navBarLinkActive .make-music-icon, .main-navBar-navBarItem .main-navBar-navBarLinkActive .search-icon, .main-navBar-navBarItem .search-active-icon {
   color: var(--spice-main);
+/*navbar rounded corners*/
+  .main-navbar { 
+    border: 5px;
+    border-radius: 5px;
+    border-color: var(--spice-main);
+    
 }
 /*playing status icon - Playlist*/
 .CCeu9OfWSwIAJqA49n84.ZcKzjCkYGeMizcSAP8UX {
