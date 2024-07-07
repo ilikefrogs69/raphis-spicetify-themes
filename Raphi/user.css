@@ -131,8 +131,21 @@
   height: 20px;
   width: 20px;
 }
+/* playback time indicators */
+.playback-bar__progress-time-elapsed {
+    pointer-events: none;
+}
+.playback-bar__progress-time-elapsed::after {
+    content: " /";
+}
 .playback-bar__progress-time-elapsed,
 .main-playbackBarRemainingTime-container {
+    z-index: 9;
+    padding-top: 2px;
+}
+/*.playback-bar__progress-time-elapsed,
+.main-playbackBarRemainingTime-container {
+  z-index: 9;
   color: var(--spice-text);
   position: absolute;
   margin-bottom: 33px;
@@ -144,6 +157,7 @@
 .playback-bar__progress-time-elapsed::after {
   content: '  /';
 }
+*/
 .main-nowPlayingBar-extraControls {
   margin-right: 75px;
 }
